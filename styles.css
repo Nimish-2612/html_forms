@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(203, 220, 214);
+  margin: 3rem;
+  font-family: 'Roboto';
+}
+
+header
+{
+    text-align: center;
+}
+
+form
+{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color:rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+}
+
+input
+{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#personal-info input
+{
+    padding-top: 12px;
+    height: 28px;
+}
+
+#message
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+#message label
+{
+    margin-bottom: 12px;
+}
+
+#source
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#source label
+{
+    margin: 12px 0;
+}
+
+#source select
+{
+    height: 30px;
+}
+
+.info
+{
+    display: flex;
+}
+
+.info input
+{
+    width: auto;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+#buttons
+{
+    display: flex;
+    justify-content: end;   
+}
+
+#clear,#submit
+{
+    width: auto;
+    margin-left: 8px;
+    padding: 8px 24px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+}
