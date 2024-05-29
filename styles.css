@@ -2,6 +2,7 @@ body {
   background-color: rgb(203, 220, 214);
   margin: 3rem;
   font-family: 'Roboto';
+  font-size: 1.25rem;
 }
 
 header
@@ -24,9 +25,17 @@ input
     width: 100%;
     box-sizing: border-box;
     display: block;
-    margin-bottom: 1rem;
+    margin-top: 12px;
+    height: 2rem;
+    border-radius: 3px;
 }
 
+input:focus,textarea:focus,select:focus
+{
+    background-color: rgb(217, 242, 234);
+    border: none;
+    border-color: rgb(217, 242, 234);
+}
 ul
 {
     list-style: none;
@@ -34,10 +43,16 @@ ul
     padding: 0;
 }
 
-#personal-info input
+
+.item
 {
-    padding-top: 12px;
-    height: 28px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.item label
+{
+    padding: 12px 0px;
 }
 
 #message
@@ -66,11 +81,13 @@ ul
 #source select
 {
     height: 30px;
+    font-size: 1.25rem;
 }
 
 .info
 {
     display: flex;
+    align-items: center;
 }
 
 .info input
@@ -78,8 +95,23 @@ ul
     width: auto;
     margin-right: 0.5rem;
     margin-left: 1rem;
+}
+
+.terms 
+{
+    display: flex;
+    margin: 15px 0;
     align-items: center;
 }
+
+.terms input
+{
+    width: auto;
+    margin-left: 1rem ;
+    margin-right: 0.5rem ;
+
+}
+
 
 #buttons
 {
@@ -95,4 +127,24 @@ ul
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
+}
+#submit
+{   
+    color: white;
+    background-color: rgb(78, 61, 91);
+}
+
+#clear
+{
+    background-color: white;
+}
+
+#submit:hover
+{
+    background-color: rgb(70, 48, 86) ;
+}
+
+#clear:hover
+{
+    background-color: rgb(244, 251, 251);
 }

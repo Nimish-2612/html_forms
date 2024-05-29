@@ -19,17 +19,17 @@
 
     <form action="">
       <h2 id="form-title">How can we help you?</h2>
-      <section id="personal info">
+      <section id="personal-info">
         <ul>
-          <li>
+          <li class="item">
             <label for="user-name">Your name</label>
             <input type="text" id="user-name" name="username" required />
           </li>
-          <li>
+          <li class="item">
             <label for="user-email">Your E-mail Address</label>
             <input type="email" name="useremail" id="user-email" required />
           </li>
-          <li>
+          <li class="item">
             <label for="user-phone-number">Your phone number</label>
             <input
               type="number"
@@ -47,8 +47,8 @@
       </section>
 
       <section id="source">
-        <label for="">How did you find us</label>
-        <select name="" id="">
+        <label for="">How did you find us?</label>
+        <select name="find" id="source" size="1">
           <option value="">Web search</option>
           <option value="">Word of mouth</option>
           <option value="">Other</option>
@@ -58,23 +58,23 @@
       <section id="reply">
         <h2>How should we reply?</h2>
         <div class="info">
-          <label for="call">Call me</label>
           <input type="radio" id="call" name="call-user" />
+          <label for="call">Call me</label>
         </div>
 
         <div class="info">
-          <label for="email">Send me an email</label>
           <input type="radio" id="email" name="eamil-user" />
+          <label for="email">Send me an email</label>
         </div>
 
         <div class="info">
-          <label for="no-reply">Don't reply</label>
           <input type="radio" id="no-reply" name="noreply" />
+          <label for="no-reply">Don't reply</label>
         </div>
       </section>
 
       <section>
-        <div class="info">
+        <div class="terms">
           <input type="checkbox" id="terms" name="term" />
           <label for="terms">Accept terms</label>
         </div>
